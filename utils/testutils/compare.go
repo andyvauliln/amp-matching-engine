@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/Proofsuite/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/types"
 	"github.com/go-test/deep"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/mgo.v2/dbtest"

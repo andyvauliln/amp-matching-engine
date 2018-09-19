@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Proofsuite/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/types"
 	"gopkg.in/mgo.v2/dbtest"
 )
 

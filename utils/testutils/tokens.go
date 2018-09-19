@@ -1,7 +1,7 @@
 package testutils
 
 import (
-	"github.com/Proofsuite/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/types"
 	"github.com/ethereum/go-ethereum/common"
 )
 

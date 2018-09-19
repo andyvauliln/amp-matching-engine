@@ -3,12 +3,12 @@ package services
 import (
 	"errors"
 
-	"github.com/Proofsuite/amp-matching-engine/interfaces"
-	"github.com/Proofsuite/amp-matching-engine/types"
-	"github.com/Proofsuite/amp-matching-engine/utils"
+	"github.com/andyvauliln/amp-matching-engine/interfaces"
+	"github.com/andyvauliln/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/utils"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/Proofsuite/amp-matching-engine/ws"
+	"github.com/andyvauliln/amp-matching-engine/ws"
 )
 
 // PairService struct with daos required, responsible for communicating with daos.

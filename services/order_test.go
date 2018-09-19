@@ -4,11 +4,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Proofsuite/amp-matching-engine/rabbitmq"
+	"github.com/andyvauliln/amp-matching-engine/rabbitmq"
 
-	"github.com/Proofsuite/amp-matching-engine/types"
-	"github.com/Proofsuite/amp-matching-engine/utils/testutils"
-	"github.com/Proofsuite/amp-matching-engine/utils/testutils/mocks"
+	"github.com/andyvauliln/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/utils/testutils"
+	"github.com/andyvauliln/amp-matching-engine/utils/testutils/mocks"
 	"github.com/ethereum/go-ethereum/common"
 )
 

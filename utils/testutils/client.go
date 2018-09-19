@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Proofsuite/amp-matching-engine/types"
-	"github.com/Proofsuite/amp-matching-engine/utils"
-	"github.com/Proofsuite/amp-matching-engine/ws"
+	"github.com/andyvauliln/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/utils"
+	"github.com/andyvauliln/amp-matching-engine/ws"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/gorilla/websocket"
 	"github.com/posener/wstest"

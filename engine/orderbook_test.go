@@ -4,13 +4,13 @@ import (
 	"log"
 	"testing"
 
-	"github.com/Proofsuite/amp-matching-engine/rabbitmq"
-	"github.com/Proofsuite/amp-matching-engine/redis"
-	"github.com/Proofsuite/amp-matching-engine/types"
-	"github.com/Proofsuite/amp-matching-engine/utils"
-	"github.com/Proofsuite/amp-matching-engine/utils/testutils"
-	"github.com/Proofsuite/amp-matching-engine/utils/testutils/mocks"
-	"github.com/Proofsuite/amp-matching-engine/utils/units"
+	"github.com/andyvauliln/amp-matching-engine/rabbitmq"
+	"github.com/andyvauliln/amp-matching-engine/redis"
+	"github.com/andyvauliln/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/utils"
+	"github.com/andyvauliln/amp-matching-engine/utils/testutils"
+	"github.com/andyvauliln/amp-matching-engine/utils/testutils/mocks"
+	"github.com/andyvauliln/amp-matching-engine/utils/units"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
 )
@@ -731,8 +731,8 @@ func TestPartialMatchOrder2(t *testing.T) {
 // 	"math/big"
 // 	"testing"
 
-// 	"github.com/Proofsuite/amp-matching-engine/types"
-// 	"github.com/Proofsuite/amp-matching-engine/utils/math"
+// 	"github.com/andyvauliln/amp-matching-engine/types"
+// 	"github.com/andyvauliln/amp-matching-engine/utils/math"
 // 	"github.com/stretchr/testify/assert"
 // )
 

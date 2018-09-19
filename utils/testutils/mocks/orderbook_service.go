@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	"github.com/Proofsuite/amp-matching-engine/ws"
+	"github.com/andyvauliln/amp-matching-engine/ws"
 	common "github.com/ethereum/go-ethereum/common"
 	mock "github.com/stretchr/testify/mock"
 )

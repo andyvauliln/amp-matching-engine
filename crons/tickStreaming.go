@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Proofsuite/amp-matching-engine/types"
-	"github.com/Proofsuite/amp-matching-engine/utils"
-	"github.com/Proofsuite/amp-matching-engine/ws"
+	"github.com/andyvauliln/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/utils"
+	"github.com/andyvauliln/amp-matching-engine/ws"
 
-	"github.com/Proofsuite/amp-matching-engine/app"
+	"github.com/andyvauliln/amp-matching-engine/app"
 	"github.com/robfig/cron"
 )
 

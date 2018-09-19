@@ -1,6 +1,6 @@
 package main
 
-import "github.com/Proofsuite/amp-matching-engine/cmd"
+import "github.com/andyvauliln/amp-matching-engine/cmd"
 
 func main() {
 	cmd.Execute()

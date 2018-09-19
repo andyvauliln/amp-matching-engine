@@ -8,17 +8,17 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Proofsuite/amp-matching-engine/app"
-	"github.com/Proofsuite/amp-matching-engine/interfaces"
-	"github.com/Proofsuite/amp-matching-engine/utils"
-	"github.com/Proofsuite/amp-matching-engine/utils/math"
-	"github.com/Proofsuite/amp-matching-engine/ws"
+	"github.com/andyvauliln/amp-matching-engine/app"
+	"github.com/andyvauliln/amp-matching-engine/interfaces"
+	"github.com/andyvauliln/amp-matching-engine/utils"
+	"github.com/andyvauliln/amp-matching-engine/utils/math"
+	"github.com/andyvauliln/amp-matching-engine/ws"
 	"github.com/ethereum/go-ethereum/common"
 
 	"gopkg.in/mgo.v2/bson"
 
-	"github.com/Proofsuite/amp-matching-engine/rabbitmq"
-	"github.com/Proofsuite/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/rabbitmq"
+	"github.com/andyvauliln/amp-matching-engine/types"
 )
 
 // OrderService struct with daos required, responsible for communicating with daos.

@@ -2,6 +2,47 @@
 
 
 [[projects]]
+  branch = "develop"
+  digest = "1:0fdb8d0cb31d30b95cecaf802524d25bb3407843274c33779051df0d35dca71b"
+  name = "github.com/andyvauliln/amp-matching-engine"
+  packages = [
+    "app",
+    "cmd",
+    "contracts",
+    "contracts/contractsinterfaces",
+    "crons",
+    "daos",
+    "e2e",
+    "endpoints",
+    "engine",
+    "errors",
+    "ethereum",
+    "interfaces",
+    "operator",
+    "rabbitmq",
+    "redis",
+    "services",
+    "types",
+    "utils",
+    "utils/httputils",
+    "utils/math",
+    "utils/testutils",
+    "utils/testutils/mocks",
+    "utils/units",
+    "ws",
+  ]
+  pruneopts = "T"
+  revision = "94f6e5631b029b1ca3ffc84de191786b270d8a8f"
+
+[[projects]]
+  digest = "1:a81e18f55d2cec58eff1d74f0ecffd00baec0035ff824478072945595bc6a48e"
+  name = "github.com/andyvauliln/go-ethereum"
+  packages = ["log"]
+  pruneopts = "T"
+  revision = "ff9b14617e73c07dfa028bc477fe86c1e04d80c5"
+  version = "v1.8.9"
+
+[[projects]]
   digest = "1:e3bb58bcd5cf318d91ccdb290fd8e0e78d16add716b1ccf861fed19c1551fde0"
   name = "github.com/Sirupsen/logrus"
   packages = ["."]
@@ -136,8 +177,6 @@
   packages = [
     ".",
     "access",
-    "content",
-    "cors",
     "fault",
   ]
   pruneopts = "T"
@@ -167,14 +206,6 @@
   pruneopts = "T"
   revision = "6592d9cc0a499ad2d5f574fde80a2b5c5cc3b4f5"
   version = "v1.0.1"
-
-[[projects]]
-  branch = "master"
-  digest = "1:c562a26b09743c059ebe4e4ce6954411627ace9f26e0cd58ff6d432e09486390"
-  name = "github.com/golang/gddo"
-  packages = ["httputil/header"]
-  pruneopts = "T"
-  revision = "8b031907f29f163ebae1e3978af398769a5f3df6"
 
 [[projects]]
   branch = "master"
@@ -571,6 +602,31 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/andyvauliln/amp-matching-engine/app",
+    "github.com/andyvauliln/amp-matching-engine/cmd",
+    "github.com/andyvauliln/amp-matching-engine/contracts",
+    "github.com/andyvauliln/amp-matching-engine/contracts/contractsinterfaces",
+    "github.com/andyvauliln/amp-matching-engine/crons",
+    "github.com/andyvauliln/amp-matching-engine/daos",
+    "github.com/andyvauliln/amp-matching-engine/e2e",
+    "github.com/andyvauliln/amp-matching-engine/endpoints",
+    "github.com/andyvauliln/amp-matching-engine/engine",
+    "github.com/andyvauliln/amp-matching-engine/errors",
+    "github.com/andyvauliln/amp-matching-engine/ethereum",
+    "github.com/andyvauliln/amp-matching-engine/interfaces",
+    "github.com/andyvauliln/amp-matching-engine/operator",
+    "github.com/andyvauliln/amp-matching-engine/rabbitmq",
+    "github.com/andyvauliln/amp-matching-engine/redis",
+    "github.com/andyvauliln/amp-matching-engine/services",
+    "github.com/andyvauliln/amp-matching-engine/types",
+    "github.com/andyvauliln/amp-matching-engine/utils",
+    "github.com/andyvauliln/amp-matching-engine/utils/httputils",
+    "github.com/andyvauliln/amp-matching-engine/utils/math",
+    "github.com/andyvauliln/amp-matching-engine/utils/testutils",
+    "github.com/andyvauliln/amp-matching-engine/utils/testutils/mocks",
+    "github.com/andyvauliln/amp-matching-engine/utils/units",
+    "github.com/andyvauliln/amp-matching-engine/ws",
+    "github.com/andyvauliln/go-ethereum/log",
     "github.com/Sirupsen/logrus",
     "github.com/alicebob/miniredis",
     "github.com/ethereum/go-ethereum",
@@ -588,8 +644,6 @@
     "github.com/go-ozzo/ozzo-dbx",
     "github.com/go-ozzo/ozzo-routing",
     "github.com/go-ozzo/ozzo-routing/access",
-    "github.com/go-ozzo/ozzo-routing/content",
-    "github.com/go-ozzo/ozzo-routing/cors",
     "github.com/go-ozzo/ozzo-routing/fault",
     "github.com/go-ozzo/ozzo-validation",
     "github.com/go-test/deep",

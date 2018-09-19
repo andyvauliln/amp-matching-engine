@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Proofsuite/amp-matching-engine/interfaces"
-	"github.com/Proofsuite/amp-matching-engine/rabbitmq"
-	"github.com/Proofsuite/amp-matching-engine/redis"
-	"github.com/Proofsuite/amp-matching-engine/types"
-	"github.com/Proofsuite/amp-matching-engine/utils"
+	"github.com/andyvauliln/amp-matching-engine/interfaces"
+	"github.com/andyvauliln/amp-matching-engine/rabbitmq"
+	"github.com/andyvauliln/amp-matching-engine/redis"
+	"github.com/andyvauliln/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/utils"
 	"github.com/ethereum/go-ethereum/common"
 )
 

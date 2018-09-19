@@ -3,8 +3,8 @@ package testutils
 import (
 	"time"
 
-	"github.com/Proofsuite/amp-matching-engine/ethereum"
-	"github.com/Proofsuite/amp-matching-engine/utils/testutils/mocks"
+	"github.com/andyvauliln/amp-matching-engine/ethereum"
+	"github.com/andyvauliln/amp-matching-engine/utils/testutils/mocks"
 )
 
 func Mine(client *ethereum.SimulatedClient) {

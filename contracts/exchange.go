@@ -7,9 +7,9 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/Proofsuite/amp-matching-engine/contracts/contractsinterfaces"
-	"github.com/Proofsuite/amp-matching-engine/interfaces"
-	"github.com/Proofsuite/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/contracts/contractsinterfaces"
+	"github.com/andyvauliln/amp-matching-engine/interfaces"
+	"github.com/andyvauliln/amp-matching-engine/types"
 	ethereum "github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"

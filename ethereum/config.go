@@ -1,7 +1,7 @@
 package ethereum
 
 import (
-	"github.com/Proofsuite/amp-matching-engine/utils"
+	"github.com/andyvauliln/amp-matching-engine/utils"
 	"github.com/ethereum/go-ethereum/common"
 )
 

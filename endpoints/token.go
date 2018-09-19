@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/Proofsuite/amp-matching-engine/interfaces"
-	"github.com/Proofsuite/amp-matching-engine/services"
-	"github.com/Proofsuite/amp-matching-engine/types"
-	"github.com/Proofsuite/amp-matching-engine/utils/httputils"
+	"github.com/andyvauliln/amp-matching-engine/interfaces"
+	"github.com/andyvauliln/amp-matching-engine/services"
+	"github.com/andyvauliln/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/utils/httputils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/gorilla/mux"
 )

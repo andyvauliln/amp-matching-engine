@@ -3,7 +3,7 @@ package rabbitmq
 import (
 	"log"
 
-	"github.com/Proofsuite/amp-matching-engine/utils"
+	"github.com/andyvauliln/amp-matching-engine/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/streadway/amqp"
 )

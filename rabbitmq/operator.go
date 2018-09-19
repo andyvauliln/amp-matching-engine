@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/Proofsuite/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/types"
 )
 
 func (c *Connection) SubscribeOperator(fn func(*types.OperatorMessage) error) error {

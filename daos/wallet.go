@@ -1,8 +1,8 @@
 package daos
 
 import (
-	"github.com/Proofsuite/amp-matching-engine/app"
-	"github.com/Proofsuite/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/app"
+	"github.com/andyvauliln/amp-matching-engine/types"
 	"github.com/ethereum/go-ethereum/common"
 	"gopkg.in/mgo.v2/bson"
 )

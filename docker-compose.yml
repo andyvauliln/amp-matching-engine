@@ -15,6 +15,8 @@ services:
       - redis
       - rabbitmq
       - mongodb
+    volumes:
+      - ./logs:/logs
 
   rabbitmq:
     container_name: "rabbitmq"

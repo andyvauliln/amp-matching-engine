@@ -3,8 +3,8 @@ package daos
 import (
 	"reflect"
 
-	"github.com/Proofsuite/amp-matching-engine/app"
-	"github.com/Proofsuite/amp-matching-engine/utils"
+	"github.com/andyvauliln/amp-matching-engine/app"
+	"github.com/andyvauliln/amp-matching-engine/utils"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

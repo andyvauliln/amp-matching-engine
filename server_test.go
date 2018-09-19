@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Proofsuite/amp-matching-engine/app"
-	"github.com/Proofsuite/amp-matching-engine/e2e"
-	"github.com/Proofsuite/amp-matching-engine/errors"
-	"github.com/Proofsuite/amp-matching-engine/rabbitmq"
+	"github.com/andyvauliln/amp-matching-engine/app"
+	"github.com/andyvauliln/amp-matching-engine/e2e"
+	"github.com/andyvauliln/amp-matching-engine/errors"
+	"github.com/andyvauliln/amp-matching-engine/rabbitmq"
 )
 
 func TestApp(t *testing.T) {

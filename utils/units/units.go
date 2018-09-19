@@ -3,7 +3,7 @@ package units
 import (
 	"math/big"
 
-	"github.com/Proofsuite/amp-matching-engine/utils/math"
+	"github.com/andyvauliln/amp-matching-engine/utils/math"
 )
 
 func Ethers(value int64) *big.Int {

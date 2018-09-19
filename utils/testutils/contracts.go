@@ -5,9 +5,9 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/Proofsuite/amp-matching-engine/contracts"
-	"github.com/Proofsuite/amp-matching-engine/contracts/contractsinterfaces"
-	"github.com/Proofsuite/amp-matching-engine/interfaces"
+	"github.com/andyvauliln/amp-matching-engine/contracts"
+	"github.com/andyvauliln/amp-matching-engine/contracts/contractsinterfaces"
+	"github.com/andyvauliln/amp-matching-engine/interfaces"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	ethTypes "github.com/ethereum/go-ethereum/core/types"

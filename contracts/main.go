@@ -1,5 +1,5 @@
 package contracts
 
-import "github.com/Proofsuite/amp-matching-engine/utils"
+import "github.com/andyvauliln/amp-matching-engine/utils"
 
 var logger = utils.Logger

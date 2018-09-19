@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Proofsuite/amp-matching-engine/app"
-	"github.com/Proofsuite/amp-matching-engine/daos"
-	"github.com/Proofsuite/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/app"
+	"github.com/andyvauliln/amp-matching-engine/daos"
+	"github.com/andyvauliln/amp-matching-engine/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/mgo.v2/bson"

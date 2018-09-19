@@ -5,7 +5,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Proofsuite/amp-matching-engine/utils/math"
+	"github.com/andyvauliln/amp-matching-engine/utils/math"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 

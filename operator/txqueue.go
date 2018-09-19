@@ -5,9 +5,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Proofsuite/amp-matching-engine/interfaces"
-	"github.com/Proofsuite/amp-matching-engine/rabbitmq"
-	"github.com/Proofsuite/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/interfaces"
+	"github.com/andyvauliln/amp-matching-engine/rabbitmq"
+	"github.com/andyvauliln/amp-matching-engine/types"
 	ethereum "github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	eth "github.com/ethereum/go-ethereum/core/types"

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/Proofsuite/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/types"
 )
 
 func (c *Connection) SubscribeOrders(fn func(*Message) error) error {

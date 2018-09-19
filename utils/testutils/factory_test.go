@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Proofsuite/amp-matching-engine/types"
-	"github.com/Proofsuite/amp-matching-engine/utils/units"
+	"github.com/andyvauliln/amp-matching-engine/types"
+	"github.com/andyvauliln/amp-matching-engine/utils/units"
 )
 
 func TestNewOrderFromFactory(t *testing.T) {

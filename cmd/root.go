@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Proofsuite/amp-matching-engine/app"
-	"github.com/Proofsuite/amp-matching-engine/errors"
+	"github.com/andyvauliln/amp-matching-engine/app"
+	"github.com/andyvauliln/amp-matching-engine/errors"
 	"github.com/spf13/cobra"
 )
 
